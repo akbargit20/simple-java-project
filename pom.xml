@@ -6,6 +6,12 @@
     <artifactId>works-with-heroku</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
+         
+          <properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+         
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -13,10 +19,7 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
-             <properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
+            
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
